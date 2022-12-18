@@ -15,6 +15,6 @@ To get set up with MH-Watch-Dump, you will need to do the following:
 
 To use MH-Watch-Dump, follow these steps:
 
-1. Copy your JSON string from the MH+ extension. *Note: There is currently a bug in MH+ that causes the `slg_session` and `slg_profile_token` keys to be the same. To fix this, you can view [this bug report](https://github.com/honkling/MHPlus/pull/16) to see the status of the bug and get instructions on how to fix it.*
+1. Copy your JSON string from the MH+ extension.
 2. Run the `auto_dump.py` script by typing `python auto_dump.py '[JSON STRING HERE]'` into your command prompt, replacing `'[JSON STRING HERE]'` with your actual JSON string.
 3. The script should respond with a message indicating that your keys have been uploaded. *Make sure that your server is running and properly configured.*
